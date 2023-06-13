@@ -59,9 +59,9 @@ public class PrimeNumber {
             temp=0;
         }
         System.out.println("Total prime  number =  "+primeCount);
-        
-        
-        
-        
+      
     }
+    
+    
+    
 }
