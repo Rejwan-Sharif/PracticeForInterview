@@ -20,9 +20,18 @@ public class ReverseString {
         
         
        String temp ="";
-        for(int i =string.length()-1;i>=0;i--){
-           temp+=string.charAt(i);
+//        for(int i =string.length()-1;i>=0;i--){
+//           temp+=string.charAt(i);
+//        }
+//        System.out.println(temp);
+
+
+        for (int i = string.length()-1; i >=0; i--) {
+            temp+=string.charAt(i);
         }
+        
         System.out.println(temp);
-        }
+    }
+
+        
 }

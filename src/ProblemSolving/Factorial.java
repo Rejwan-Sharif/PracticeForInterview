@@ -22,6 +22,7 @@ public class Factorial {
         b *=i;
     }
         System.out.println(b);
+
     }
     
 }
