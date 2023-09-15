@@ -4,27 +4,24 @@
  */
 package ProblemSolving;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
  */
-public class LeargestElementOfArray {
+public class Factorial {
     
     public static void main(String[] args) {
         
-        int arr[] = {1,6,9,7,4,12,9};
-        var large =0;
-        for(int i = 0; i<arr.length;i++){
-           if(arr[i]>large){
-               large  =  arr[i];
-           }
-          
-        }
-        System.out.println(large);
-        
+    
+    Scanner sc =  new  Scanner(System.in);
+    int a = sc.nextInt();
+    int b = 1;
+    for(int i = 1;i<=a;i++){
+        b *=i;
     }
-    
-    
-    
+        System.out.println(b);
+    }
     
 }
