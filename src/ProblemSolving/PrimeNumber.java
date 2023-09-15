@@ -35,7 +35,7 @@ public class PrimeNumber {
 //        }
 
 
-//    fromm n to m nuumber check is prime or not
+   // fromm n to m nuumber check is prime or not
 
         System.out.print("Enter a n number : ");        
         int n = input.nextInt();
@@ -59,6 +59,13 @@ public class PrimeNumber {
             temp=0;
         }
         System.out.println("Total prime  number =  "+primeCount);
+
+
+    
+
+    
+        
+        
       
     }
     

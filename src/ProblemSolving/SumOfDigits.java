@@ -32,6 +32,6 @@ public class SumOfDigits {
             temp = temp / 10;
         }
         return sum;
-    }
     
+    }
 }

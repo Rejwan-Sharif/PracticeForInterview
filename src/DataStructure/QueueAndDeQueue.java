@@ -22,9 +22,12 @@ public class QueueAndDeQueue {
         que.add("Mannan");
         que.add("Jahan");
         
-        que.forEach((list)->{
-            System.out.println(list);
-        });
+//        que.forEach((list)->{
+//            System.out.println(list);
+//        });
+        
+        System.out.println(que.peek());
+        System.out.println(que.poll());
         
     }
     
