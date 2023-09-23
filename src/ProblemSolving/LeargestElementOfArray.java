@@ -12,8 +12,8 @@ public class LeargestElementOfArray {
     
     public static void main(String[] args) {
         
-        int arr[] = {1,6,9,7,4,12,9};
-        var large =0;
+        int arr[] = {1,6,9,7,4,12,9,18};
+        int large =arr[0];
         for(int i = 0; i<arr.length;i++){
            if(arr[i]>large){
                large  =  arr[i];

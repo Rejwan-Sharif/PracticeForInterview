@@ -30,5 +30,14 @@ public class TwoSumofArray {
             System.out.println(" "+x);
         }
         
+            
+        for (int i = 0; i < num.length-1; i++) {
+            if(target == num[i]+num[i+1] ){
+                System.out.println("The Targetd number found in "+num[i] + " and "+num[i+1]);
+            }
+        }
+        
+        
+        
     }
 }
